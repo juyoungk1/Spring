@@ -91,4 +91,6 @@ public class AnswerController {
         this.answerService.vote(answer, siteUser);
         return String.format("redirect:/question/detail/%s", answer.getQuestion().getId());
     }
+
+    //222
 }
